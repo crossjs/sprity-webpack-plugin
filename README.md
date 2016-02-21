@@ -11,7 +11,7 @@ npm install sprity-webpack-plugin
 - A simple example in webpack.config.js:
 
 ```js
-var sprite = require('sprite-webpack-plugin');
+var SprityWebpackPlugin = require('sprity-webpack-plugin');
 
 module.exports = {
   plugins: [
@@ -22,8 +22,7 @@ module.exports = {
 }
 ```
 
-If you want to learn more about Webpack, so [here is the link][id].
-[id]: http://webpack.github.io
+If you want to learn more about Webpack, so [here is the link][http://webpack.github.io].
 
 ### Options ###
 
