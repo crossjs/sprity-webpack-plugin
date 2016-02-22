@@ -22,9 +22,9 @@ module.exports = {
 }
 ```
 
-If you want to learn more about Webpack, so [here is the link][http://webpack.github.io].
+If you want to learn more about Webpack, so [here is the link](http://webpack.github.io).
 
 ### Options ###
 
-See in file [Sprity](https://github.com/sprity/sprity#options)
+See [Sprity](https://github.com/sprity/sprity#options)
 
