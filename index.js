@@ -5,7 +5,11 @@ function SprityWebpackPlugin(options) {
 }
 
 SprityWebpackPlugin.prototype.apply = function(compiler) {
-  sprity.create(this.options, function() {});
+  compiler.plugin('run', function (compiler, callback) {
+    sprity.create(this.options, function() {
+      callback();
+    });
+  }.bind(this));
 };
 
 module.exports = SprityWebpackPlugin;
