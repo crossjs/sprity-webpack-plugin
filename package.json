@@ -1,6 +1,6 @@
 {
   "name": "sprity-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build sprite images and css sheets on the fly with sprity while running webpack.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/crossjs/sprity-webpack-plugin#readme",
   "dependencies": {
+    "gaze": "^1.0.0",
+    "glob": "^7.0.3",
     "sprity": "^1.0.8"
   }
 }
